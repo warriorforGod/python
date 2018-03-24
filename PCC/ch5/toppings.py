@@ -1,4 +1,6 @@
-requested_topping='mushrooms'
+requested_toppings= ['mushrooms', 'extra cheese']
 
-if requested_topping != 'anchovies':
-	print("Hold the anchovies!")
+if 'mushrooms' in requested_toppings:
+	print("Adding Mushrooms.")
+if 'pepperoni' in requested_toppings:
+	print("Adding Pepperoni.")
